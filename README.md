@@ -48,7 +48,7 @@ roles.getProp(roles.ADMIN)
 You can also use `roles.getProps()` to get array of all properties:
 
 ```js
-roles.getProps()
+roles.props()
 // return
 // [
 //   {

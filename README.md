@@ -5,7 +5,7 @@ enum for javascript, inspired from https://obaranovskyi.medium.com/using-enums-i
 
 Define enum constants:
 
-```
+```js
 import Enum from 'enumjs';
 
 const roles = new Enum();
@@ -17,7 +17,7 @@ When you use `roles.ADMIN`, it will return `admin`.
 
 You can futher define more proerties in every enum constant:
 
-```
+```js
 roles.defineEnumProperty(
   'ADMIN',
   'admin',
@@ -36,7 +36,7 @@ roles.defineEnumProperty(
 
 Then you can call `roles.getProp(roles.ADMIN)` to get properties in `roles.ADMIN`:
 
-```
+```js
 roles.getProp(roles.ADMIN)
 // return
 // {
@@ -47,7 +47,7 @@ roles.getProp(roles.ADMIN)
 
 You can also use `roles.getProps()` to get array of all properties:
 
-```
+```js
 roles.getProps()
 // return
 // [
@@ -64,7 +64,7 @@ roles.getProps()
 
 Other useful method:
 
-```
+```js
 roles.keys()
 // reutrn ['ADMIN, 'USER']
 

@@ -1,5 +1,5 @@
 {
-  "name": "enumjs",
+  "name": "@5x/enumjs",
   "version": "1.0.0",
   "description": "enum for js",
   "main": "src/index.mjs",

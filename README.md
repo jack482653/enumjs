@@ -6,7 +6,7 @@ enum for javascript, inspired from https://obaranovskyi.medium.com/using-enums-i
 Define enum constants:
 
 ```js
-import Enum from 'enumjs';
+import Enum from '@5x/enumjs';
 
 const roles = new Enum();
 roles.defineEnumProperty('ADMIN', 'admin');

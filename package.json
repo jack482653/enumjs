@@ -1,0 +1,19 @@
+{
+  "name": "enumjs",
+  "version": "1.0.0",
+  "description": "enum for js",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack482653/enumjs.git"
+  },
+  "author": "wuxian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jack482653/enumjs/issues"
+  },
+  "homepage": "https://github.com/jack482653/enumjs#readme"
+}

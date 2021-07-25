@@ -1,1 +1,73 @@
 # enumjs
+enum for javascript, inspired from https://obaranovskyi.medium.com/using-enums-in-pure-javascript-9c03853c1ab7
+
+## Usage
+
+Define enum constants:
+
+```
+import Enum from 'enumjs';
+
+const roles = new Enum();
+roles.defineEnumProperty('ADMIN', 'admin');
+roles.defineEnumProperty('USER', 'user');
+```
+
+When you use `roles.ADMIN`, it will return `admin`.
+
+You can futher define more proerties in every enum constant:
+
+```
+roles.defineEnumProperty(
+  'ADMIN',
+  'admin',
+  {
+    permissons: ['manage_users', 'self_access']
+  }
+);
+roles.defineEnumProperty(
+  'USER',
+  'user',
+  {
+    permissons: ['self_access']
+  }
+);
+```
+
+Then you can call `roles.getProp(roles.ADMIN)` to get properties in `roles.ADMIN`:
+
+```
+roles.getProp(roles.ADMIN)
+// return
+// {
+//   permissons: ['manage_users', 'self_access'],
+//   value: 'admin',
+// }
+```
+
+You can also use `roles.getProps()` to get array of all properties:
+
+```
+roles.getProps()
+// return
+// [
+//   {
+//     permissons: ['manage_users', 'self_access'],
+//     value: 'admin',
+//   },
+//   {
+//     permissons: ['self_access'],
+//     value: 'user',
+//   },
+// ];
+```
+
+Other useful method:
+
+```
+roles.keys()
+// reutrn ['ADMIN, 'USER']
+
+roles.values()
+// ['admin', 'user']
+```

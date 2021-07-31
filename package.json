@@ -1,6 +1,6 @@
 {
   "name": "@5x/enumjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "enum for js",
   "main": "lib/index.js",
   "scripts": {

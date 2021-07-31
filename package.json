@@ -1,6 +1,6 @@
 {
   "name": "@5x/enumjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "enum for js",
   "main": "lib/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8"
+    "@babel/preset-env": "^7.14.8",
+    "babel-plugin-add-module-exports": "^1.0.4"
   }
 }

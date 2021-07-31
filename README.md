@@ -1,6 +1,12 @@
 # enumjs
 enum for javascript, inspired from https://obaranovskyi.medium.com/using-enums-in-pure-javascript-9c03853c1ab7
 
+## Installation
+
+```bash
+npm install --save @5x/enumjs
+```
+
 ## Usage
 
 Define enum constants:

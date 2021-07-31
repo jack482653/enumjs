@@ -1,19 +1,33 @@
 {
   "name": "@5x/enumjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "enum for js",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jack482653/enumjs.git"
   },
+  "keywords": [
+    "enumjs",
+    "node-enumjs",
+    "enum",
+    "enums",
+    "enumeration",
+    "utils"
+  ],
   "author": "wuxian",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jack482653/enumjs/issues"
   },
-  "homepage": "https://github.com/jack482653/enumjs#readme"
+  "homepage": "https://github.com/jack482653/enumjs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8"
+  }
 }
